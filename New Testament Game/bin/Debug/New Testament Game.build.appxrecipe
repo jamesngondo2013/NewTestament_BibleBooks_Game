@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JAYME</Machine>
+    <WindowsUser>James</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>70ab6207-96f4-435b-a06b-94efa3c4222f</PackageIdentityName>
+    <IntermediateOutputPath>A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\New Testament Game.exe">
+      <PackagePath>New Testament Game.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\BibleBooks.PNG">
+      <PackagePath>Assets\BibleBooks.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\about.png">
+      <PackagePath>Images\about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\aboutGame.png">
+      <PackagePath>Images\aboutGame.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\advanced_level.png">
+      <PackagePath>Images\advanced_level.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\back.png">
+      <PackagePath>Images\back.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\backGroundNT.PNG">
+      <PackagePath>Images\backGroundNT.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\backGroundNT2.PNG">
+      <PackagePath>Images\backGroundNT2.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\beginnerLevel.png">
+      <PackagePath>Images\beginnerLevel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\beginnerLevel1.png">
+      <PackagePath>Images\beginnerLevel1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\beginnerScore.png">
+      <PackagePath>Images\beginnerScore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\BibleBooksCover.png">
+      <PackagePath>Images\BibleBooksCover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\book8.PNG">
+      <PackagePath>Images\book8.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\booksGame.png">
+      <PackagePath>Images\booksGame.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\booksLis2.png">
+      <PackagePath>Images\booksLis2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\booksList.png">
+      <PackagePath>Images\booksList.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\booksOrder.png">
+      <PackagePath>Images\booksOrder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\checkScore.png">
+      <PackagePath>Images\checkScore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\checkScores.png">
+      <PackagePath>Images\checkScores.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\matureLevel.png">
+      <PackagePath>Images\matureLevel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\matureLevel1.png">
+      <PackagePath>Images\matureLevel1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\matureScore.png">
+      <PackagePath>Images\matureScore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\myBooks4.PNG">
+      <PackagePath>Images\myBooks4.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\oldTestament.png">
+      <PackagePath>Images\oldTestament.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\pic1.png">
+      <PackagePath>Images\pic1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\pic2.png">
+      <PackagePath>Images\pic2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\pic3.png">
+      <PackagePath>Images\pic3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\pic4.png">
+      <PackagePath>Images\pic4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\pic5.png">
+      <PackagePath>Images\pic5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\player.png">
+      <PackagePath>Images\player.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\playerName.png">
+      <PackagePath>Images\playerName.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\quiz.png">
+      <PackagePath>Images\quiz.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\quizLevel.png">
+      <PackagePath>Images\quizLevel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\quizScore.png">
+      <PackagePath>Images\quizScore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\reset.png">
+      <PackagePath>Images\reset.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\save.png">
+      <PackagePath>Images\save.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\score.png">
+      <PackagePath>Images\score.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\scoreTitle.png">
+      <PackagePath>Images\scoreTitle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\Images\start.png">
+      <PackagePath>Images\start.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\BeginnerLevel.xbf">
+      <PackagePath>BeginnerLevel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\MatureLevel.xbf">
+      <PackagePath>MatureLevel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\TotalScore.xbf">
+      <PackagePath>TotalScore.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\New Testament Game.xr.xml">
+      <PackagePath>New Testament Game.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="A:\GMIT HACAKTHON APPS\New Testament Game\New Testament Game\New Testament Game\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

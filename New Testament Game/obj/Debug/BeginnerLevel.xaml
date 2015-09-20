@@ -1,0 +1,136 @@
+﻿<Page
+    x:Class="New_Testament_Game.BeginnerLevel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:New_Testament_Game"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Images/backGroundNT.png" Stretch="Fill" Margin="0,-16,0,16"/>
+        <Image Margin="185,64,367,230" Source="Assets/BibleBooks.PNG" Stretch="Fill"/>
+        <Canvas x:Name="BibleBooks">
+            <Canvas x:ConnectionId='2' x:Name="James" Height="53" Canvas.Left="220" Canvas.Top="96" Width="120"                      Tag="James" Opacity="0">
+                <Path Data="M220,96 L364,97 L367,149 L220,149 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="54" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="148"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='3' x:Name="Titus" Height="52" Canvas.Left="381" Canvas.Top="97" Width="93"                      Tag="Titus" Opacity="0">
+                <Path Data="M381,97 L494,97 L497,147 L381,148 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="117"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='4' x:Name="Hebrews" Height="54" Canvas.Left="510" Canvas.Top="95" Width="111"                      Tag="Hebrews" Opacity="0">
+                <Path Data="M512,97 L623,95 L626,147 L510,149 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="55" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="117"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='5' x:Name="John" Height="52" Canvas.Left="639" Canvas.Top="97" Width="95"                      Tag="John" Opacity="0">
+                <Path Data="M643,97 L751,97 L754,148 L640,148 L639,97 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="116"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='6' x:Name="Revelations" Height="52" Canvas.Left="772" Canvas.Top="97" Width="184"                      Tag="Revelations" Opacity="0">
+                <Path Data="M774,99 L955,97 L959,147 L772,151 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="55" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="188"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='7' x:Name="Galatians" Height="48" Canvas.Left="222" Canvas.Top="166" Width="150"                      Tag="Galatians" Opacity="0">
+                <Path Data="M222,166 L363,167 L366,215 L222,218 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="145"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='8' x:Name="Acts" Height="47" Canvas.Left="380" Canvas.Top="167" Width="112"                      Tag="Acts" Opacity="0">
+                <Path Data="M380,167 L494,167 L494,217 L381,218 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="115"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='9' x:Name="Mark" Height="48" Canvas.Left="512" Canvas.Top="166" Width="109"                      Tag="Mark" Opacity="0">
+                <Path Data="M512,166 L623,167 L626,217 L512,218 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="115"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='10' x:Name="_1Peter" Height="47" Canvas.Left="638" Canvas.Top="167" Width="113"                      Tag="_1Peter" Opacity="0">
+                <Path Data="M638,167 L754,168 L755,217 L640,220 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="54" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="118"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='11' x:Name="Philippians" Height="47" Canvas.Left="770" Canvas.Top="167" Width="186"                      Tag="Philippians" Opacity="0">
+                <Path Data="M770,167 L957,168 L957,217 L771,219 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="188"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='12' x:Name="_1Timothy" Height="50" Canvas.Left="221" Canvas.Top="236" Width="135"                      Tag="_1Timothy" Opacity="0">
+                <Path Data="M222,236 L364,237 L366,286 L221,288 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="146"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='13' x:Name="_1John" Height="51" Canvas.Left="381" Canvas.Top="235" Width="111"                      Tag="_1John" Opacity="0">
+                <Path Data="M381,236 L492,235 L495,286 L382,289 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="55" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="115"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='14' x:Name="Romans" Height="50" Canvas.Left="510" Canvas.Top="236" Width="111"                      Tag="Romans" Opacity="0">
+                <Path Data="M510,236 L622,236 L626,285 L512,287 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="117"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='15' x:Name="Matthew" Height="50" Canvas.Left="641" Canvas.Top="236" Width="110"                      Tag="Matthew" Opacity="0">
+                <Path Data="M641,237 L752,236 L754,284 L642,289 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="54" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="114"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='16' x:Name="_2Timothy" Height="50" Canvas.Left="771" Canvas.Top="236" Width="185"                      Tag="_2Timothy" Opacity="0">
+                <Path Data="M771,237 L956,236 L958,286 L772,288 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="188"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='17' x:Name="Colossians" Height="53" Canvas.Left="221" Canvas.Top="307" Width="151"                      Tag="Colossians" Opacity="0">
+                <Path Data="M221,307 L363,307 L366,358 L224,359 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="146"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='18' x:Name="Jude" Height="53" Canvas.Left="381" Canvas.Top="307" Width="111"                      Tag="Jude" Opacity="0">
+                <Path Data="M381,307 L494,309 L495,357 L381,358 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="115"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='19' x:Name="_2Peter" Height="41" Canvas.Left="511" Canvas.Top="307" Width="110"                      Tag="_2Peter" Opacity="0">
+                <Path Data="M511,307 L623,307 L625,357 L511,359 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="115"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='20' x:Name="_2John" Height="54" Canvas.Left="639" Canvas.Top="306" Width="112"                      Tag="_2John" Opacity="0">
+                <Path Data="M640,306 L754,306 L754,358 L639,358 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="116"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='21' x:Name="_2Thessalonians" Height="52" Canvas.Left="772" Canvas.Top="308" Width="184"                      Tag="_2Thessalonians" Opacity="0">
+                <Path Data="M772,310 L955,308 L958,356 L772,359 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="187"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='22' x:Name="Ephesians" Height="51" Canvas.Left="221" Canvas.Top="378" Width="151"                      Tag="Ephesians" Opacity="0">
+                <Path Data="M221,378 L364,379 L366,429 L222,430 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="146"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='23' x:Name="_3John" Height="50" Canvas.Left="380" Canvas.Top="379" Width="112"                      Tag="_3John" Opacity="0">
+                <Path Data="M383,381 L491,379 L495,428 L380,427 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="50" Stretch="Fill"  UseLayoutRounding="False" VerticalAlignment="Top" Width="116"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='24' x:Name="Luke" Height="50" Canvas.Left="509" Canvas.Top="379" Width="112"                      Tag="Luke" Opacity="0">
+                <Path Data="M510,380 L624,379 L626,429 L509,429 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="51" Stretch="Fill"  UseLayoutRounding="False" VerticalAlignment="Top" Width="118"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='25' x:Name="_2Corinthians" Height="49" Canvas.Left="770" Canvas.Top="380" Width="186"                      Tag="_2Corinthians" Opacity="0">
+                <Path Data="M770,380 L956,380 L958,431 L771,431 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill"  UseLayoutRounding="False" VerticalAlignment="Top" Width="189"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='26' x:Name="_1Thessalonians" Height="45" Canvas.Left="372" Canvas.Top="450" Width="197"                      Tag="_1Thessalonians" Opacity="0">
+                <Path Data="M372,450 L567,451 L568,501 L373,502 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="53" Stretch="Fill"  UseLayoutRounding="False" VerticalAlignment="Top" Width="197"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='27' x:Name="_1Corinthians" Height="47" Canvas.Left="585" Canvas.Top="448" Width="191"                      Tag="_1Corinthians" Opacity="0">
+                <Path Data="M585,450 L770,448 L773,501 L585,502 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="55" Stretch="Fill"  UseLayoutRounding="False" VerticalAlignment="Top" Width="189"/>
+
+            </Canvas>
+            <Canvas x:ConnectionId='28' x:Name="Philemon" Height="50" Canvas.Left="640" Canvas.Top="379" Width="111"                      Tag="Philemon" Opacity="0">
+                <Path Data="M640,379 L751,379 L755,428 L640,430 z" Stroke="#DF6F21" Fill="#DF6F21" HorizontalAlignment="Left" Height="52" Stretch="Fill" UseLayoutRounding="False" VerticalAlignment="Top" Width="116"/>
+
+            </Canvas>
+        </Canvas>
+
+        <TextBlock x:Name="QuestionBlock" Text="Select Book" Foreground="Red" FontFamily="Comic Sans MS" TextAlignment="Center" FontSize="40" FontWeight="Bold" HorizontalAlignment="Left" Margin="95,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" Height="59"/>
+
+        <!--StackPanel HorizontalAlignment="Left" Height="231" Margin="36,494,0,0" VerticalAlignment="Top" Width="283" -->
+        <TextBlock x:Name="ScoreBlock" HorizontalAlignment="Left" Margin="60,631,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Height="92" Text="0" Foreground="Red" FontFamily="Comic Sans MS" TextAlignment="Center" FontSize="38" FontWeight="Bold"/>
+        <TextBlock x:Name="txtBookNum" HorizontalAlignment="Left" Margin="141,631,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Height="92" Text="0" Foreground="Red" FontFamily="Comic Sans MS" TextAlignment="Center" FontSize="38" FontWeight="Bold"/>
+
+        <TextBlock x:Name="correctAnswerBlock" HorizontalAlignment="Left" Margin="159,667,0,0" TextWrapping="Wrap" Foreground="Blue" FontFamily="Comic Sans MS" TextAlignment="Center" FontSize="36" FontWeight="Bold" VerticalAlignment="Top" Height="85" Width="709"/>
+        <Image x:ConnectionId='1' x:Name="checkScore" Height="79" HorizontalAlignment="Left" Margin="945,631,0,58" Stretch="Fill" VerticalAlignment="Center" Width="411" Source="Images/checkScores.png"                           />
+        <Image x:Name="score" Height="79" HorizontalAlignment="Left" Margin="42,538,0,151" Stretch="Fill" VerticalAlignment="Center" Width="285" Source="Images/score.png" />
+        <TextBlock x:Name="TimerBlock" HorizontalAlignment="Left" Margin="1143,48,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Height="54" Width="138" Foreground="Red" FontSize="30" FontFamily="Comic Sans MS" FontWeight="Bold" Visibility="Collapsed"/>
+    </Grid>
+</Page>
+
